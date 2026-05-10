@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bcca68d9bfc4a428c59d339cb97726, type: 3}
+  m_Name: BiomeConfigSO
+  m_EditorClassIdentifier: 
+  BiomeCount: 1
+  Biomes:
+  - Name: Forest
+    PatternLibrary: {fileID: 11400000, guid: 0afd47e78fcd9f349bd11944a86ebd5b, type: 2}
+    TransitionLibrary: {fileID: 11400000, guid: 0afd47e78fcd9f349bd11944a86ebd5b, type: 2}
